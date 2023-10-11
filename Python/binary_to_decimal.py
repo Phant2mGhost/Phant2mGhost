@@ -18,9 +18,8 @@ def check_valid_input(binaries):
 binaries = user_input()
 
 while not check_valid_input(binaries):
-    print("Invalid input. Please enter binary numb
-er only.")
-     binaries = user_input()
+    print("Invalid input. Please enter binary number only.")
+    binaries = user_input()
 
 #int array multiplied by 2
 num = np.array(binaries)
